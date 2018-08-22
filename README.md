@@ -2,15 +2,13 @@
 
 This document comes from a superlative article that I found in 2014 on [GitHub](https://github.com).
 
-The article, written by [Nicolas Hery](https://github.com/nicolashery), describes how to set up a developer environment on a new MacBook or iMac.
+The article, written by [Nicolas Hery](https://github.com/nicolashery), describes how to set up a complete developer environment on a new MacBook or iMac.
 
-The document guides you through the setup of Command Line Tools for XCode, [Node and npm](http://nodejs.org/), [Python](http://www.python.org/), [Ruby](http://www.ruby-lang.org/), [MySQL](http://www.mysql.com/), [MongoDB](http://www.mongodb.org), [Redis](http://redis.io/), [Elasticsearch](http://www.elasticsearch.org/), [Heroku](http://www.heroku.com/) environments, mainly for JavaScript and Python development. Even if you don't program in all three, it is good to have them as many command-line tools use one of them. 
+I copied Nicolas' document and modified it to study the [Markdown](https://it.wikipedia.org/wiki/Markdown) language syntax, whilst keeping track of the setup on my iMac with **OS X High Sierra 10.13**.
 
-As you read  and follow these steps, feel free to send me any feedback or comments you may have.
+The document guides you through the setup of Command Line Tools for XCode + Homebrew, iTerm2, Sublime Text, [Node and npm](http://nodejs.org/), [Python](http://www.python.org/), [Ruby](http://www.ruby-lang.org/), [MySQL](http://www.mysql.com/), [MongoDB](http://www.mongodb.org), [Redis](http://redis.io/), [Elasticsearch](http://www.elasticsearch.org/), [Heroku](http://www.heroku.com/) environments, mainly for JavaScript and Python development. Even if one doesn't program in all these environments, it is good to have them installed as many command-line tools use one of them. 
 
-The document assumes you are new to Mac. The steps below were tested in 2018 on **OS X High Sierra 10.13**.
-
-If you have any comments or suggestions, please refer to the original document by [Nicolas Hery](https://github.com/nicolashery) and give him a feedback [on Twitter](https://twitter.com/nicolahery)!
+The steps below were tested in August 2018 :
 
 - [System update](#system-update)
 - [System preferences](#system-preferences)
@@ -19,7 +17,6 @@ If you have any comments or suggestions, please refer to the original document b
 - [Homebrew](#homebrew)
 - [Consolas](#consolas)
 - [Beautiful terminal](#beautiful-terminal)
-- [iTerm2](#iterm2)
 - [Git](#git)
 - [Sublime Text](#sublime-text)
 - [Vim](#vim)
@@ -39,15 +36,17 @@ If you have any comments or suggestions, please refer to the original document b
 - [Projects folder](#projects-folder)
 - [Apps](#apps)
 
+If you have any comments or suggestions, please refer to the original document by [Nicolas Hery](https://github.com/nicolashery) and give him a feedback [on Twitter](https://twitter.com/nicolahery)!
+
 ## System update
 
-First thing you need to do, on any OS actually, is update the system! For that: **Apple Icon > Software Update...**
+First thing - update the system! **Apple Icon > Software Update...**
 
 Should you need to boot your iMac in Recovery Mode, press *Command-R* during the startup then follow the instructions.
 
 ## System preferences
 
-If this is a new computer, there are a couple tweaks I like to make to the System Preferences. Feel free to follow these, or to ignore them, depending on your personal preferences.
+If this is a new computer, there are a couple tweaks Nicolas likes to make to the System Preferences. Feel free to follow these, or to ignore them, depending on your personal preferences.
 
 In **Apple Icon > System Preferences**:
 
@@ -58,9 +57,9 @@ In **Apple Icon > System Preferences**:
 
 ## Google Chrome
 
-Install your favorite browser, mine happens to be Chrome.
+Installing Chrome is mandatory.
 
-Download from [www.google.com/chrome](https://www.google.com/intl/en/chrome/browser/). Open the **.dmg** file once it's done downloading (this will mount the disk image), and drag and drop the **Google Chrome** app into the Applications folder (on the Mac, most applications are installed this way). When done, you can unmount the disk in Finder (the small "eject" icon next to the disk under **Devices**).
+Download it from [www.google.com/chrome](https://www.google.com/intl/en/chrome/browser/). Open the **.dmg** file once it's done downloading (this will mount the disk image), and drag and drop the **Google Chrome** app into the Applications folder (*on the Mac, most applications are installed this way*). When done, you can unmount the disk in Finder (the small "eject" icon next to the disk under **Devices**).
 
 ## iTerm2
 
