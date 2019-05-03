@@ -877,7 +877,7 @@ This really depends on how you want to organize your files, but I like to put al
 
 ## Apps
 
-Here is a quick list of some apps I use, and that you might find useful as well:
+Here is a quick list of some apps Nicolas uses, and that you might find useful as well:
 
 - [Dropbox](https://www.dropbox.com/): File syncing to the cloud. I put all my documents in Dropbox. It syncs them to all my devices (laptop, mobile, tablet), and serves as a backup as well! **(Free for 2GB)**
 - [Google Drive](https://drive.google.com/): File syncing to the cloud too! I use Google Docs a lot to collaborate with others (edit a document with multiple people in real-time!), and sometimes upload other non-Google documents (pictures, etc.), so the app comes in handy for that. **(Free for 5GB)**
